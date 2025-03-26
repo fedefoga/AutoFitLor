@@ -24,8 +24,8 @@ This
 2. Start XSPEC and load the following data in order.
       1. Powerspectra in a soft band (eg 0.3-2 keV)
       2. Powerspectra in a hard band (eg 2-12 keV)
-      3. Real part of the Crossspectrum
-      4. Imaginary part of the crossspectrum
+      3. Real part of the cross-spectrum
+      4. Imaginary part of the cross-spectrum
       5. Phase lag spectrum
       6. Intrinsic coherence function
 3. Load AutoFitLor (`@AutoFitLor.tcl`).
