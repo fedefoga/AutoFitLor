@@ -2,6 +2,7 @@
 
 AutoFitLor is a Tcl script designed to automate the fitting of Lorentzian models in XSPEC. It iteratively adds Lorentzian components to fit power density spectra (PDS), real and imaginary parts, phase lags, and coherence spectra, using statistical tests to determine the optimal number of Lorentzians. Refer to Méndez et. al (https://academic.oup.com/mnras/article/527/3/9405/7476004) for details on the model.
 
+This 
 
 ## Features
 
@@ -29,3 +30,4 @@ AutoFitLor is a Tcl script designed to automate the fitting of Lorentzian models
       6. Intrinsic coherence function
 3. Load AutoFitLor (`@AutoFitLor.tcl`).
 4. Run the process: `autofitlor`.
+5. The script will detect if a compatible model is already loaded, or start from scratch.
